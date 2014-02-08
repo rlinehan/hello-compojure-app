@@ -1,6 +1,6 @@
 # hello
 
-FIXME
+Simple example compojure app, now running with [trapperkeeper](https://github.com/puppetlabs/trapperkeeper).
 
 ## Prerequisites
 
@@ -14,6 +14,10 @@ To start a web server for the application, run:
 
     lein ring server
 
+To run with trapperkeeper, run:
+
+    lein trampoline run --config config.ini --bootstrap-config bootstrap.cfg
+
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2014 Ruth L. Linehan
